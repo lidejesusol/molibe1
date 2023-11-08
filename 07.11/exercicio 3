@@ -1,0 +1,16 @@
+double imcCalc(double altura, double peso){
+    return (peso/ (altura * altura));
+
+}
+
+void main(){
+    
+    double altura = 1.84;
+    double peso = 90.5;
+
+    double imc = imcCalc(altura,peso);
+    print('$imc');
+}
+ 
+
+    
